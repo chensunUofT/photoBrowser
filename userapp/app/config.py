@@ -14,6 +14,6 @@ aws_config_arg = {
 
 s3_config_arg = {
     'S3_BUCKET' : "",
-    'S3_LOCATION' : '')
+    'S3_LOCATION' : ''
 }
 
