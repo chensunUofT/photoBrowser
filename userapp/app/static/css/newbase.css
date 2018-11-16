@@ -1,7 +1,13 @@
 
 #appname {
-    width: 200px;
-    margin: auto;
+    font-family: Poppins-Medium;
+    font-size: 20px;
+    color: #fff;
+    line-height: 1.2;
+    text-align: center;
+    text-transform: uppercase;
+    display: block;
+
 }
 
 #username {
@@ -9,7 +15,7 @@
 }
 
 body {
-    background: #64718D;
+     background: #9198e5;
 }
 
 #outher {
@@ -22,7 +28,43 @@ body {
     margin: auto;
     display: inline-block;
     border-radius: 25px;
-    background: #CCE4DF;
+   background: linear-gradient(rgba(230,100,101,0.5), #9198e5);
     padding: 20px;
 }
 
+.login-btn{
+    font-family: Poppins-Medium, serif;
+    font-size: 18px;
+    color: #555555;
+    line-height: 1.2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    height: 30px;
+    border-radius: 25px;
+    position: relative;
+    z-index: 1;
+    transition: all 0.4s;
+    opacity: 0.8;
+    margin:0 30%;
+
+}
+
+.normal-btn{
+    font-family: Poppins-Medium, serif;
+    font-size: 18px;
+    color: #555555;
+    line-height: 1.2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    height: 30px;
+    border-radius: 25px;
+    position: relative;
+    z-index: 1;
+    transition: all 0.4s;
+    opacity: 0.8;
+    margin:0 30%;
+}
