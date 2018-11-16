@@ -13,7 +13,7 @@ aws_config_arg = {
 }
 
 s3_config_arg = {
-    'S3_BUCKET' : "",
+    'S3_BUCKET' : "photobucket1779",
     'S3_LOCATION' : ''
 }
 
