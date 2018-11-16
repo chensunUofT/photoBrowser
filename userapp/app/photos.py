@@ -130,6 +130,10 @@ def upload_save():
         return redirect(url_for('upload_form'))
 
     # store the temporary file for transformation, they will be deleted later
+
+    if not os.path.exists('app/static/user_images'):
+        os.mkdir('app/static/user_images')
+
     fname = os.path.join('app/static/user_images', new_file.filename)
     new_file.save(fname)
 
