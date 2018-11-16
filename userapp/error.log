@@ -1,0 +1,7 @@
+[2017-02-07 18:27:03 +0000] [7090] [INFO] Starting gunicorn 19.6.0
+[2017-02-07 18:27:03 +0000] [7090] [INFO] Listening at: http://0.0.0.0:5000 (7090)
+[2017-02-07 18:27:03 +0000] [7090] [INFO] Using worker: sync
+[2017-02-07 18:27:03 +0000] [7093] [INFO] Booting worker with pid: 7093
+[2017-02-07 18:27:33 +0000] [7090] [INFO] Handling signal: int
+[2017-02-07 18:27:33 +0000] [7093] [INFO] Worker exiting (pid: 7093)
+[2017-02-07 18:27:33 +0000] [7090] [INFO] Shutting down: Master
